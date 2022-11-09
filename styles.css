@@ -10,7 +10,6 @@
   position: relative;
   margin: 10vh auto;
   border: 1px solid #ccc;
-  
 }
 
 .Card {
@@ -29,25 +28,34 @@
 }
 
 .CardBack {
-  background-color: #aaa; 
-  display: none;
+  background-color: #aaa;
+  
 }
 
 .CardFront {
- background-color: #333;
- 
+  background-color: #333;
+  display: none;
 }
 
-.pic1 .CardFront {
-  background-image: url(Images/question-mark-g939f44095_1920.jpg);
-  bacground-size: fill;
- 
+.clicked .CardFront {
+  display: block;
   
+}
+
+.clicked .CardBack {
+  display: none;
+  
+}
+.pic1 .CardFront {
+  background-image: url(Images/traffic-signs-g89b0cb300_1280.jpg);
+  bacground-size: fill;
 }
 
 .pic2 .CardFront {
   background-image: url(Images/question-mark-g939f44095_1920.jpg);
   bacground-size: fill;
- 
-
 }
+
+
+
+
